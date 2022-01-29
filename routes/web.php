@@ -24,3 +24,4 @@ Route::get('/dashboard', function () {
 })->middleware(['auth','ActiveUser'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
